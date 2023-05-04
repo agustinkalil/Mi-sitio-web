@@ -1,0 +1,171 @@
+/* NavBar */
+.navbar{
+    background-color: rgb(0, 0, 0);
+}    
+.navbar-nav{
+    --bs-nav-link-color: rgb(0, 0, 0);
+    --bs-nav-link-hover-color: rgb(0, 0, 0);
+}
+.color-nav{
+    color: rgb(175, 0, 0);
+
+}
+.navbar-mia{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar-mobile{
+    background-color: darkred;
+}
+
+/* index */
+body{
+    background-color:  #260000;
+}
+
+.blackrose{
+    color: rgb(255, 252, 252);
+    
+    
+}
+
+.h1{
+    color: rgb(255, 253, 253);
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contenedor-licencias{
+    background-color: rgb(8, 8, 45);
+    color: white;
+    border: 1px groove black;
+    margin-bottom: 30px;
+}
+
+ul, li{
+    list-style: none;
+    padding-top: 10px;
+    
+}
+
+.cruz{
+    height: 30px;
+    width: 30px;
+    color: gray;
+    margin-bottom: 35px;
+}
+.check{
+    height: 30px;
+    width: 30px;
+    color: green;
+    margin-bottom: 35px;
+    
+}
+/* beatstore */
+
+.contenedordebeats{
+    background-color: black;
+}
+.border-botton{
+       color: rgb(34, 33, 33);
+}
+.buyboton{
+    background-color: darkred;
+}
+
+div{
+    color: aliceblue;
+}
+
+/* servicios */
+
+.titulo{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.mifondo{
+    height: 700px;
+}
+
+.MyM{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 20px 100px 20px 100px;
+    
+}
+
+/* sobremi */
+.biografia{
+    margin: 50px 40px 50px 40px ;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* contacto */
+
+.bgblack{
+    background-color: black;
+}
+
+
+
+/* footer */
+footer{
+    background-color: black;
+
+    
+}
+.logodelfooter{
+   margin-bottom: 15px;
+}
+.titulos{
+        color: aliceblue;;
+}
+.parrafodelfooter{
+    color: gray;
+    margin-bottom: 50px;
+}
+.mibotoncito{
+    background-color: black;
+    border-color: darkred;
+    border: 1px darkred solid;
+    --bs-btn-hover-bg: #000000;
+    
+}
+.footer1{
+       padding-top: 80px;
+       padding-bottom: 50px;
+}
+.divisiondelfooter{
+    border-bottom: 1px solid gray;
+}
+.copyright{
+    padding: 50px 20px 50px 20px;
+}
+
+.redesmenu{
+    display: flex;
+}
+
+.redeslogo{
+    width: 30px;
+    height: 30px;
+}
+.navbar-ultima{
+          background-color: black;
+          color: aliceblue;
+          display: flex;
+} 
+ul{
+    color: aliceblue;
+}
+
+/* mobile */
+
+/* index */
+/* @media screen and (max-width: 576px) {
+     .contenedor-licencias{
+        margin: 30px 30px 30px 30px;
+     }
+}  */
