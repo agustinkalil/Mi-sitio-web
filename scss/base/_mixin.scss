@@ -1,0 +1,19 @@
+@mixin texto-servicios {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 20px 100px 20px 100px;
+}
+@mixin logo{
+    border-radius: 30%;
+}
+@mixin btn-enviar{
+    border: #000000;
+    background-color: rgb(180, 0, 0) ;
+    color: aliceblue;
+}
+@mixin btn-subscribirse{
+    background-color: black;
+    border-color: darkred;
+    border: 1px darkred solid;
+    --bs-btn-hover-bg: #000000;
+}

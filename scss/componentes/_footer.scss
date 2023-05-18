@@ -1,0 +1,51 @@
+footer{
+    background-color: map-get($colores, negro-c);
+    .container{
+        .footer1{
+            padding-top: 80px;
+            padding-bottom: 50px;
+
+            .logodelfooter{
+                margin-bottom: 15px;
+                border-radius: 30%;
+             }
+             .parrafodelfooter{
+                color: map-get($colores, gris-c);
+                margin-bottom: 50px; 
+            }
+            .titulos{
+                color: map-get($colores, blanco-c );
+            }
+            .parrafodelfooter{
+                color: map-get($colores, gris-c);
+                margin-bottom: 50px;
+            }
+            .mibotoncito{
+                @include btn-subscribirse
+            }
+        }
+    }
+    .divisiondelfooter{
+    }
+
+    .container{
+            .row{
+            .copyright{
+                padding: 50px 20px 50px 20px;
+            }
+            .titulos{
+                color: map-get($colores, blanco-c );
+            }
+            .redeslogo{
+                width: 30px;
+                height: 30px;
+            }
+            ul{
+                color: aliceblue;
+                
+            }
+           }
+
+        }
+    }
+    

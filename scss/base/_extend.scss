@@ -1,0 +1,27 @@
+%flex-centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%icono-cruz{
+        height: 30px;
+        width: 30px;
+        color: gray;
+        margin-bottom: 35px;
+}
+
+%icono-check{
+    height: 30px;
+    width: 30px;
+    color: green;
+    margin-bottom: 35px;
+}
+%titulos-beats{
+    width: 10%;
+    max-width: 500px;
+    margin: 10px;
+    background-color: #000000;
+    border-radius: 1px solid  rgb(180, 0, 0) ;
+    padding: 10px;
+}

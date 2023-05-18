@@ -1,0 +1,26 @@
+.contenedordebeats{
+    background-color: map-get($colores, negro-c);
+    margin-bottom: 30px;
+}
+
+.buyboton{
+    background-color: map-get($colores, rojo-claro );
+}
+div{
+    color: map-get($colores, blanco-c )
+}
+.titulo-ins{
+    padding-left: 180px;
+}
+.tiempo-ins{
+    padding-left: 80px;
+}
+.bpm-ins{
+    padding-left: 60px;
+}
+.tags-ins{
+    padding-right: 60px ;
+}
+.bordeaux, .veintediez, .otc{
+    @extend %titulos-beats;
+}

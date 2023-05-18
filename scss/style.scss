@@ -1,1 +1,14 @@
-@import './base/listas';
+@import './base/extend';
+@import './base/vars';
+@import './base/maps';
+@import './base/mixin';
+
+@import './componentes/clasesdebs';
+@import './componentes/header';
+@import './componentes/index';
+@import './componentes/beatstore';
+@import './componentes/servicios';
+@import './componentes/sobremi';
+@import './componentes/contacto';
+@import './componentes/footer';
+@import './componentes/mobile';

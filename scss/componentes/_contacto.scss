@@ -1,0 +1,11 @@
+.container{
+    .row{
+        .bgblack{
+            background-color: map-get($colores, negro-c );
+
+            .mibotondeenviar{
+                @include btn-enviar
+            }
+        }
+    }
+}

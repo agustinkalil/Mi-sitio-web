@@ -1,0 +1,31 @@
+@media screen and (max-width: 576px) and (min-width:100px)
+     {
+        .blackrosetitulo {
+            
+           align-items: start;
+           padding-top: 10px;
+           
+        }
+        .biografialogo{
+            width: 50%;
+            height: 50%;
+        }
+        p, h5, li{
+            font-size: small;
+        }
+        h2{
+            font-size: medium;
+        }
+        .blackrosetitulo{
+            display: none;
+        }
+        .titulo-ins, .tiempo-ins, .bpm-ins, .tags-ins{
+            display: none;
+        }
+        .mobile-none{
+            display: none;
+        }
+        .contenedor-comprar{
+            padding-left: 150px;
+        }
+     }

@@ -1,0 +1,46 @@
+h1, h2, h5, p, a{
+    font-family: $myfont;
+}
+
+body{
+    background: rgb(10,6,108);
+background: linear-gradient(159deg, rgba(10,6,108,1) 7%, rgba(0,0,0,1) 50%, rgba(65,1,1,1) 87%);}
+
+.blackrosetitulo{
+
+    color: map-get($colores, blanco-c );
+}
+
+.contenedor-licencias{
+    background-color:  rgb(8, 8, 45) ;
+            color: map-get($colores, blanco-c );
+            border: 1px groove black;
+            margin-bottom: 30px;
+    .row{
+        
+        h2{
+            padding-top: 40px;
+        }
+        h2:nth-child(2){
+            padding-top: 20px;
+        }
+        
+        p{
+            padding-top: 20px;
+        }   
+    }
+}
+
+ul{
+    li{
+        list-style: none;
+        padding-top: 10px;
+    }
+}
+.cruz{
+    @extend %icono-cruz;
+}
+.check{
+    @extend %icono-check;
+}
+
